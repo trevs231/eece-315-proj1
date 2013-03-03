@@ -1,14 +1,10 @@
-UBC Computer Engineering
-==============
-EECE 315 Project 1
-==============
-Shell/Command Line
-==============
+# UBC Computer Engineering<br>EECE 315 Project 1<br>Shell/Command Line
 
 Student project for Operating and File Systems course.
 
 Members:
-Andrej Satara
-Jessica Seto
-Trevor Siemens
-Rohit Singla
+<ul>
+<li>Andrej Satara</li>
+<li>Jessica Seto</li>
+<li>Trevor Siemens</li>
+<li>Rohit Singla</li>
