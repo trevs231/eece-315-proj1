@@ -36,6 +36,7 @@ int main(int argc, char* argv[], char* envp[]) {
                free(command);
            }
            command = parseCommand(pCommand);
+           memset(fileBuffer, 0, sizeof(fileBuffer));
 
            if (command == NULL){
 	       continue;
