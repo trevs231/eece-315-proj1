@@ -193,13 +193,15 @@ command_t* parseCommand(char * pCommand){
 	       pTemp = strtok(NULL,"\"");
 	   }
    }
-
+	command->argv[count] = NULL;
    command->argc = count;
 
-   if( strcmp(command->argv[command->argc-1],"&") == CMP_OK){	
+   if( strcmp(command->argv[command->argc-1],"&") == CMP_OK){
        command->isBg = true;
        command->argv[command->argc-1] = NULL;
        command->argc--;
+   }else{
+		command->isBg = false;
    }
 
    return command;
